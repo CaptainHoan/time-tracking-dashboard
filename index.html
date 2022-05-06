@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@303;408;500&family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/81ef11d5a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="time_tracking">
+      <!--card user_info-->
+      <div class="user_tracking">
+        <div class="user_info">
+          <div class="user_avatar"><img src="images/image-jeremy.png" title="avatar"></div>
+          <p class="user_represent">Report for</p>
+          <h1 class="user_name">Jeremy Robson</h1>
+        </div>
+        <div class="user_schedule">
+          <div class="time_schedule" id="day">Daily</div>
+          <div class="time_schedule" id="week">weekly</div>
+          <div class="time_schedule" id="month">Monthly</div>
+        </div>
+      </div>
+      <!--card work schedule tracking-->
+      <div class="work_tracking">
+        <div class="card_img1"><img src="file:///E:/Front-end%20projects/time-tracking-dashboard-main/images/icon-work.svg" title="work"></div>
+        <div class="card_wrap">
+          <div class="name_card">Work</div>
+          <div class="icon"><i class="fa-solid fa-ellipsis"></i></div>
+          <div class="time"><span class="result" id="workResult">103</span>hrs </div>
+          <div class="last_time" id="work_yesterday">Last
+            <span class="time_schedule" id="work">Month</span> - 
+            <span class="last_result" id="workTime">128</span>hrs
+          </div>
+        </div>
+      </div>
+      <!--card play schedule tracking-->
+      <div class="play_tracking">
+        <div class="card_img2"><img src="file:///E:/Front-end%20projects/time-tracking-dashboard-main/images/icon-play.svg" title="work"></div>
+        <div class="card_wrap">
+          <div class="name_card">Play</div>
+          <div class="icon"><i class="fa-solid fa-ellipsis"></i></div>
+          <div class="time"><span class="result" id="playResult">23</span>hrs </div>
+          <div class="last_time" id="play_yesterday">Last
+            <span class="time_schedule" id="play">Month</span> - 
+            <span class="last_result" id="playTime">29</span>hrs
+          </div>
+        </div>
+      </div>
+      <!--card study schedule tracking-->
+      <div class="study_tracking">
+        <div class="card_img3"><img src="file:///E:/Front-end%20projects/time-tracking-dashboard-main/images/icon-study.svg" title="work"></div>
+        <div class="card_wrap">
+          <div class="name_card">Study</div>
+          <div class="icon"><i class="fa-solid fa-ellipsis"></i></div>
+          <div class="time"><span class="result" id="studyResult">13</span>hrs </div>
+          <div class="last_time" id="study_yesterday">Last
+            <span class="time_schedule" id="study">Month</span> - 
+            <span class="last_result" id="studyTime">19</span>hrs
+          </div>
+        </div>
+      </div>
+      <!--card exercise schedule tracking-->
+      <div class="exercise_tracking">
+        <div class="card_img4"><img src="file:///E:/Front-end%20projects/time-tracking-dashboard-main/images/icon-exercise.svg" title="exercise"></div>
+        <div class="card_wrap">
+          <div class="name_card">Exercise</div>
+          <div class="icon"><i class="fa-solid fa-ellipsis"></i></div>
+          <div class="time"><span class="result" id="exerciseResult">11</span>hrs </div>
+          <div class="last_time" id="exercise_yesterday">Last
+            <span class="time_schedule" id="exercise">Month</span> - 
+            <span class="last_result" id="exerciseTime">18</span>hrs
+          </div>
+        </div>
+      </div>
+      <!--card social schedule tracking-->
+      <div class="social_tracking">
+        <div class="card_img5"><img src="file:///E:/Front-end%20projects/time-tracking-dashboard-main/images/icon-social.svg" title="work"></div>
+        <div class="card_wrap">
+          <div class="name_card">Social</div>
+          <div class="icon"><i class="fa-solid fa-ellipsis"></i></div>
+          <div class="time"><span class="result" id="socialResult">21</span>hrs </div>
+          <div class="last_time" id="social_yesterday">Last
+            <span class="time_schedule" id="social">Month</span> - 
+            <span class="last_result" id="socialTime">23</span>hrs
+          </div>
+        </div>
+      </div>
+      <!--card selfcar schedule tracking-->
+      <div class="selfcare_tracking">
+        <div class="card_img6"><img src="file:///E:/Front-end%20projects/time-tracking-dashboard-main/images/icon-self-care.svg" title="work"></div>
+        <div class="card_wrap">
+          <div class="name_card">Self Care</div>
+          <div class="icon"><i class="fa-solid fa-ellipsis"></i></div>
+          <div class="time"><span class="result" id="careResult">7</span>hrs </div>
+          <div class="last_time" id="care_yesterday">Last
+            <span class="time_schedule" id="care">Month</span> - 
+            <span class="last_result" id="careTime">11</span>hrs
+          </div>
+        </div>
+      </div>
+      <script src="tracking.js"></script>
+    </div>
+  </div>
+  
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+</body>
+</html> 
